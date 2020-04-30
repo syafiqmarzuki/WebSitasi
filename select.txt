@@ -1,0 +1,5 @@
+select pegawai.nama_depan,pelanggan.nama,jasa_pengiriman.nama_perusahaan from pesanan join pegawai on pesanan.nip = pegawai.nip join pelanggan on pesanan.id_pelanggan = pelanggan.id join jasa_pengiriman on pesanan.id_jasa_kirim = jasa_pengiriman.id
+
+select pesanan.id,pegawai.nama_depan,pelanggan.nama,jasa_pengiriman.nama_perusahaan from pesanan join pegawai on pesanan.nip = pegawai.nip join pelanggan on pesanan.id_pelanggan = pelanggan.id join jasa_pengiriman on pesanan.id_jasa_kirim = jasa_pengiriman.id
+
+select pesanan.id,pegawai.nama_depan,pelanggan.nama,jasa_pengiriman.nama_perusahaan,pesanan.berat from pesanan join pegawai on pesanan.nip = pegawai.nip join pelanggan on pesanan.id_pelanggan = pelanggan.id join jasa_pengiriman on pesanan.id_jasa_kirim = jasa_pengiriman.id
